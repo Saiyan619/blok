@@ -1,0 +1,32 @@
+.hero_video {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 99;
+  
+    .video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;  // Ensures the video covers both width and height
+      object-position: center;  // Centers the video within the container
+    }
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 600px) {
+    .hero_video {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      z-index: 99;
+    }
+  
+    .video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;  // Ensures the video scales to cover the whole area
+      object-position: center;
+    }
+  }
+  

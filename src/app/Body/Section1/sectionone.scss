@@ -1,0 +1,21 @@
+.section_1_container{
+    position: sticky;
+    width: 100%;
+    height: 120vh;
+    padding-top: 10px;
+    padding-bottom: 30px;
+   background-color: black;
+}
+
+.section_1_sub_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    img{
+        width: 70%;
+    }
+    
+}
