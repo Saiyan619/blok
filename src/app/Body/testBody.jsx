@@ -7,6 +7,7 @@ import SectionFour from './Section4/SectionFour'
 import SectionFive from './Section5/SectionFive'
 import SectionSix from './Section6/SectionSix'
 import SectionSeven from './Section7/SectionSeven'
+import Footer from './Footer/Footer'
 const TestBody = () => {
   return (
     <div className='main_body_container'>
@@ -18,6 +19,7 @@ const TestBody = () => {
       <SectionFour />
       <SectionSix />
       <SectionSeven />
+      <Footer />
     </div>
   )
 }
