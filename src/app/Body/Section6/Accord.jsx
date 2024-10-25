@@ -9,11 +9,11 @@ const Accord = () => {
   };
 
   return (
-    <div id="accordion-open" data-accordion="open">
-      <h2 id="accordion-open-heading-1">
+    <div className='md:w-1/2 p-4 m-auto mt-10' id="accordion-open" data-accordion="open">
+      <h2 id="accordion-open-heading-1 w-1/2">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-800 rounded-t-xl gap-3"
           onClick={() => toggleAccordion(1)}
           aria-expanded={openIndex === 1}
           aria-controls="accordion-open-body-1"
@@ -56,7 +56,7 @@ const Accord = () => {
         className={`transition-all duration-300 ${openIndex === 1 ? '' : 'hidden'}`}
         aria-labelledby="accordion-open-heading-1"
       >
-        <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+        <div className="w-full p-5 text-gray-500 border border-b-0 border-gray-800">
           <p className="mb-2 text-gray-500 dark:text-gray-400">
           You select the apps you want to block on the Blok app and then tap the physical Blok to activate the restriction of those apps on your phone.           </p>
           <p className="text-gray-500 dark:text-gray-400">
@@ -71,12 +71,12 @@ const Accord = () => {
       <h2 id="accordion-open-heading-2">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-800 rounded-t-xl gap-3"
           onClick={() => toggleAccordion(2)}
           aria-expanded={openIndex === 2}
           aria-controls="accordion-open-body-2"
         >
-          <span className="flex items-center">
+          <span className="flex items-center text-left">
             <svg
               className="w-5 h-5 me-2 shrink-0"
               fill="currentColor"
@@ -114,7 +114,7 @@ const Accord = () => {
         className={`transition-all duration-300 ${openIndex === 2 ? '' : 'hidden'}`}
         aria-labelledby="accordion-open-heading-2"
       >
-        <div className="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+        <div className="w-full p-5 text-gray-500 border border-b-0 border-gray-800">
           <p className="mb-2 text-gray-500 dark:text-gray-400">
             You can always choose to extend the time limit or just unblock apps if it's a solution on your phone. With Blok, it's a physical device that provides more friction for you to keep distractions on your phone blocked. Imagine you're blok'd at work but left your Blok at home…
           </p>
@@ -124,7 +124,7 @@ const Accord = () => {
       <h2 id="accordion-open-heading-3">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-800 rounded-t-xl gap-3"
           onClick={() => toggleAccordion(3)}
           aria-expanded={openIndex === 3}
           aria-controls="accordion-open-body-3"
@@ -167,7 +167,7 @@ const Accord = () => {
         className={`transition-all duration-300 ${openIndex === 3 ? '' : 'hidden'}`}
         aria-labelledby="accordion-open-heading-3"
       >
-        <div className="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+        <div className="w-full p-5 text-gray-500 border border-b-0 border-gray-800">
           <p className="mb-2 text-gray-500 dark:text-gray-400">
             You can download the Blok iOS app here. Android app coming soon.
           </p>
@@ -177,12 +177,12 @@ const Accord = () => {
       <h2 id="accordion-open-heading-4">
         <button
           type="button"
-          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
+          className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-800 rounded-t-xl gap-3"
           onClick={() => toggleAccordion(3)}
           aria-expanded={openIndex === 3}
           aria-controls="accordion-open-body-3"
         >
-          <span className="flex items-center">
+          <span className="flex items-center text-left">
             <svg
               className="w-5 h-5 me-2 shrink-0"
               fill="currentColor"
@@ -220,9 +220,10 @@ const Accord = () => {
         className={`transition-all duration-300 ${openIndex === 3 ? '' : 'hidden'}`}
         aria-labelledby="accordion-open-heading-3"
       >
-        <div className="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+        <div className="w-full p-5 text-gray-500 border border-b-0 border-gray-800">
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-          Don't worry, you can buy an Emergency Unblok for $5— and the proceeds will be donated to charity.          </p>
+            Don't worry, you can buy an Emergency Unblok for $5— and the proceeds will be donated to charity.
+          </p>
         </div>
       </div>
     </div>
