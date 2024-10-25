@@ -11,27 +11,27 @@ const links = [
   {
     title: "Home",
     href: "/",
-    src: "pexels-conojeghuo-175695.jpg"
+    src: "blok.png"
   },
   {
     title: "Shop",
     href: "/shop",
-    src: "pexels-conojeghuo-175695.jpg"
+    src: "blokPic1.png"
   },
   {
     title: "About Us",
     href: "/about",
-    src: "pexels-conojeghuo-175695.jpg"
+    src: "blok3.png"
   },
   {
     title: "Lookbook",
     href: "/lookbook",
-    src: "pexels-conojeghuo-175695.jpg"
+    src: "blok.png"
   },
   {
     title: "Contact",
     href: "/contact",
-    src: "pexels-conojeghuo-175695.jpg"
+    src: "blok.png"
   }
 ]
 

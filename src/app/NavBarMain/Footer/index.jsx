@@ -29,7 +29,7 @@ export default function Footer() {
                     variants={translate} initial="initial" 
                     animate="enter" 
                     exit="exit">
-                    <span>Images:</span> Freepik, Envato
+                    <span>Blok&copy; 2024</span>
                 </motion.li>
             </ul>
             <ul>

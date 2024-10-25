@@ -1,3 +1,4 @@
+import "./card.scss"
 const names = [
     { word: "How", id: 1 },
     { word: "much", id: 2 },
@@ -14,9 +15,9 @@ const names = [
         {names.map((item) => (
           <div
             key={item.id}
-            className="rounded-lg text-2xl text-white"
+            className=""
             >
-                <span className="text-[200px] font-bold">{item.word}</span>
+                <span className="scroll_text">{item.word}</span>
             
           </div>
         ))}
