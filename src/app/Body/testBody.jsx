@@ -6,6 +6,7 @@ import SectionThree from './Section3/SectionThree'
 import SectionFour from './Section4/SectionFour'
 import SectionFive from './Section5/SectionFive'
 import SectionSix from './Section6/SectionSix'
+import SectionSeven from './Section7/SectionSeven'
 const TestBody = () => {
   return (
     <div className='main_body_container'>
@@ -16,6 +17,7 @@ const TestBody = () => {
       <SectionFive />
       <SectionFour />
       <SectionSix />
+      <SectionSeven />
     </div>
   )
 }
