@@ -81,3 +81,94 @@
     -o-animation-play-state: paused;
     animation-play-state: paused;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .section_2_main_container{
+      // background-color: black;
+      // color: white;
+      position: sticky;
+      overflow: hidden;
+      padding-top: 100px;
+  
+      .container {
+          display: flex;
+          height: 45vh;
+          width: 100%;
+          position: relative;
+        }
+        
+        .header {
+          text-align: center;
+          width: 100%;
+          padding-top: 0px;
+          color: grey;
+          font-size: large;
+        }
+        
+        .scroll-container {
+          height: 0vh;
+        }
+        
+        .carousel-primary,
+        .carousel-secondary {
+          top: 26%;
+          left: 100%;
+          width: 100%;
+          overflow: hidden;
+          position: absolute;
+          white-space: nowrap;
+        }
+        
+      
+        .carousel-primary {
+          display: flex;
+          justify-content: space-around;
+          animation: scroll-horizontal 20s linear infinite;
+        }
+        
+        .carousel-secondary {
+          animation: scroll-horizontal 20s linear infinite;
+          animation-delay: 10s;
+        }
+  }
+  
+  
+    
+    @keyframes scroll-horizontal {
+      0% {
+        left: 100%;
+      }
+    
+      100% {
+        left: -100%;
+      }
+    }
+    
+    .carousel-primary:hover,
+    .carousel-primary:hover~.carousel-secondary {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+    
+    .carousel-secondary:hover {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+    
+    
+    .scroll-container:hover>.carousel-primary:not(:hover) {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+  
+  }
+
+    @media only screen and (min-width: 601px) and (max-width: 768px) {}
+    

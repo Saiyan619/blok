@@ -18,15 +18,22 @@
 
 }
 
-@media (max-width: 600px) {
-        h1{
-          font-size: 25px;   
+@media only screen and (max-width: 600px) {
+        .section_1_hero_text{
+                h1{
+                        font-size: 35px; 
+                        line-height: 40px;  
+                      }
         }
+       
 }
     
-@media only screen and (min-width: 601px) and (max-width: 750px) {
-        h1{
-          font-size: 30px;   
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+        .section_1_hero_text{
+                h1{
+                        font-size: 45px;
+                        line-height: 55px;   
+                      }
         }
 }
 

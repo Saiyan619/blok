@@ -85,3 +85,15 @@
       
 }
 
+
+
+@media only screen and (max-width: 600px) {
+  .section_4_container{
+  .section_four_hero_text{
+    font-size: 36px;
+    line-height: 40px;
+        font-weight: 500;
+        letter-spacing: -2px;
+  }
+}
+}

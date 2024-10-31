@@ -19,3 +19,45 @@
     }
     
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .section_1_container{
+        position: sticky;
+        width: 100%;
+        height: 70vh;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .section_1_sub_container{
+       
+    
+        img{
+            width: 100%;
+        }
+        
+    }
+   
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .section_1_container{
+        position: sticky;
+        width: 100%;
+        height: 105vh;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .section_1_sub_container{
+       
+    
+        img{
+            width: 100%;
+        }
+        
+    }
+}
+
