@@ -15,22 +15,22 @@ const links = [
   },
   {
     title: "Shop",
-    href: "/shop",
+    href: "/",
     src: "blokPic1.png"
   },
   {
     title: "About Us",
-    href: "/about",
+    href: "/",
     src: "blok3.png"
   },
   {
     title: "Lookbook",
-    href: "/lookbook",
+    href: "/",
     src: "blok.png"
   },
   {
     title: "Contact",
-    href: "/contact",
+    href: "/",
     src: "blok.png"
   }
 ]
