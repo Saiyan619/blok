@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { opacity, background } from '@/app/NavBarMain/anim';
 import Nav from '@/app/NavBarMain/Navbar/index';
 
-export default function index() {
+export default function Index() {
 
     const [isActive, setIsActive] = useState(false);
 
