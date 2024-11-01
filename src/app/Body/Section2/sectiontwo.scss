@@ -34,6 +34,9 @@
         white-space: nowrap;
       }
       
+      .scroll_img{
+        width: 100px;
+      }
     
       .carousel-primary {
         display: flex;
@@ -89,7 +92,7 @@
       // color: white;
       position: sticky;
       overflow: hidden;
-      padding-top: 100px;
+      padding-top: 50px;
   
       .container {
           display: flex;
@@ -170,5 +173,4 @@
   
   }
 
-    @media only screen and (min-width: 601px) and (max-width: 768px) {}
     
