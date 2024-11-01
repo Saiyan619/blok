@@ -60,7 +60,7 @@ const Accord = () => {
           <p className="mb-2 text-gray-500 dark:text-gray-400">
           You select the apps you want to block on the Blok app and then tap the physical Blok to activate the restriction of those apps on your phone.           </p>
           <p className="text-gray-500 dark:text-gray-400">
-            If you want to re-enable access to those apps, you'll have to physically go to where the Blok is and tap it again to unblock.
+            If you want to re-enable access to those apps, you&apos;ll have to physically go to where the Blok is and tap it again to unblock.
           </p>
           <p className="text-gray-500 dark:text-gray-400">
             This physical friction is what differentiates Blok from other software app blocking solutions.
@@ -89,7 +89,7 @@ const Accord = () => {
                 clipRule="evenodd"
               />
             </svg>
-            Why can't I just use an app to block apps?
+            Why can&apos;t I just use an app to block apps?
           </span>
           <svg
             data-accordion-icon
@@ -116,7 +116,7 @@ const Accord = () => {
       >
         <div className="w-full p-5 text-gray-500 border border-b-0 border-gray-800">
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-            You can always choose to extend the time limit or just unblock apps if it's a solution on your phone. With Blok, it's a physical device that provides more friction for you to keep distractions on your phone blocked. Imagine you're blok'd at work but left your Blok at home…
+            You can always choose to extend the time limit or just unblock apps if it&apos;s a solution on your phone. With Blok, it&apos;s a physical device that provides more friction for you to keep distractions on your phone blocked. Imagine you&apos;re blok&apos;d at work but left your Blok at home…
           </p>
         </div>
       </div>
@@ -195,7 +195,7 @@ const Accord = () => {
                 clipRule="evenodd"
               />
             </svg>
-            What if I really need to use the apps I blocked but can't access my Blok?
+            What if I really need to use the apps I blocked but can&apos;t access my Blok?
           </span>
           <svg
             data-accordion-icon
@@ -222,7 +222,7 @@ const Accord = () => {
       >
         <div className="w-full p-5 text-gray-500 border border-b-0 border-gray-800">
           <p className="mb-2 text-gray-500 dark:text-gray-400">
-            Don't worry, you can buy an Emergency Unblok for $5— and the proceeds will be donated to charity.
+            Don&apos;t worry, you can buy an Emergency Unblok for $5— and the proceeds will be donated to charity.
           </p>
         </div>
       </div>

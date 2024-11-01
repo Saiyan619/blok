@@ -8,7 +8,7 @@ const SectionSeven = () => {
           <div className="newsletter_container">
               <span className="newsletter_heading_text">Follow along</span>
               <p className="newsletter_sub_text">Join the Blok newsletter to stay updated</p>
-              <p className="newsletter_sub_sub_text">Only if you haven't downloaded the app or purchased Blok</p>
+              <p className="newsletter_sub_sub_text">Only if you haven&apos;t downloaded the app or purchased Blok</p>
 
               <div className="newsletter_input_container">
                   <input className="newsletter_input" placeholder="Enter your Email" />
